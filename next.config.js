@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  experimental: {
-    incrementalCacheHandlerPath: require.resolve('./cache-handler.js'),
-  },
   webpack: (config, options) => {
     config.module.rules.push({
       test: /\.(graphql|gql)/,

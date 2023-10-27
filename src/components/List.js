@@ -7,7 +7,7 @@ const List = (props) => {
 
     return (
         <div className='max-w-screen-md ml-72 p-4'>
-            {/* <h1>{ Math.random() }</h1> */}
+            <h1>{ Math.random() }</h1>
             <table className="table-fixed border-collapse border border-slate-500">
                 <thead>
                     <tr className='text-left'>
