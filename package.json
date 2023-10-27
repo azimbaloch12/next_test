@@ -1,0 +1,33 @@
+{
+  "name": "next_graphql",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.6",
+    "@apollo/server": "^4.9.4",
+    "@as-integrations/next": "^2.0.2",
+    "@nextui-org/react": "^2.1.13",
+    "apollo-server-core": "^3.12.1",
+    "framer-motion": "^10.16.4",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6",
+    "jquery": "^3.7.1",
+    "next": "13.5.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^4.11.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.5",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
